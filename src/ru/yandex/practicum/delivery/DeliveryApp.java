@@ -164,6 +164,7 @@ public class DeliveryApp {
 
     private static void printAllParcelsInBox() {
         String boxType = "";
+
         System.out.println("Выберите коробку с посылками: 1 - обычная, 2 - скоропортящаяся, 3 - хрупкая");
         while (!boxType.equals("1") && !boxType.equals("2") && !boxType.equals("3")) {
             boxType = scanner.nextLine();
